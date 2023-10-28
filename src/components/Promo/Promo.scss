@@ -1,0 +1,98 @@
+@import "../../Variables.scss";
+
+.promo {
+  background: $Background;
+  height: 704px;
+  padding: 80px 0;
+  &__container {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    color: white;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+  }
+  &__descr {
+    margin-top: 20px;
+  }
+  &__content {
+    width: 510px;
+  }
+  &__btn {
+    margin-top: 49px;
+    display: flex;
+    height: 60px;
+    width: 224px;
+    padding: 0 50px;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    background: $ButtonColor;
+  }
+  &__info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+    span {
+      font-size: 23.99px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 38.384px */
+    }
+  }
+  &__preview {
+    width: 510px;
+    height: 510px;
+    background: $BgSecondary;
+    border-radius: 20px;
+  }
+  &__bottom {
+    height: 109px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__name {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+  }
+  &__user {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 12px;
+    }
+  }
+}

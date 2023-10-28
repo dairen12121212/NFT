@@ -1,0 +1,40 @@
+@import "../../Variables.scss";
+
+.work {
+  padding: 80px 0;
+  background: $Background;
+  height: 738px;
+  &__container {
+    width: 1050px;
+    margin: 0 auto;
+  }
+  &__wrapper {
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    border-radius: 20px;
+    width: 330px;
+    height: 439px;
+    padding: 10px 30px 30px 30px;
+    background: $BgSecondary;
+    &-title {
+      margin-top: 20px;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 31px;
+      text-align: center;
+    }
+    &-descr {
+      margin-top: 10px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+@import "../../Variables.scss";
+
+.discover {
+  height: 780px;
+  background: $Background;
+  &__container {
+    width: 1050px;
+    margin: 0 auto;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__btn {
+    width: 187px;
+    height: 60px;
+    border-radius: 20px;
+    background: none;
+    border: 1px solid $ButtonColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    img {
+      margin-right: 12px;
+    }
+  }
+  &__wrapper {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    height: 469px;
+    width: 330px;
+    border-radius: 20px;
+    background: $BgSecondary;
+  }
+  &__info {
+    padding: 20px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__name {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+  }
+  &__user {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 12px;
+    }
+  }
+  &__price {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    &-header {
+      color: #858584;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 110%; /* 13.2px */
+      display: flex;
+      justify-content: space-between;
+    }
+    &-footer {
+      margin-top: 8px;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 22.4px */
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
